@@ -1,0 +1,43 @@
+
+.container {
+	width: 1000px;
+}
+
+.row1column {
+	float: left;
+	width: 45%;
+	font-weight: bold;
+	font-family: arial;
+}
+
+#imgage1 {
+	float: left;
+}
+
+#image2 {
+	float: right;
+	padding-right: 40px;
+	padding-bottom: 20px;
+}
+
+#image2 p {
+	padding-bottom: 8px;
+}
+
+.row2column {
+	float: left;
+	width: 45%;
+	font-weight: bold;
+	font-family: arial;
+}
+
+#image4 {
+	float: right;
+	padding-right: 40px;
+}
+
+.maincontent::after {
+  content: "";
+  clear: both;
+  display: table;
+  }
